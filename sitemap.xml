@@ -2,14 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>/about/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>/posts/readme/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>/posts/this-is-a-test/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>/tags/blog/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/tags/contact/</loc>
+  </url><url>
+    <loc>/posts/</loc>
+  </url><url>
+    <loc>/tags/project/</loc>
+  </url><url>
+    <loc>/tags/</loc>
+  </url><url>
+    <loc>/</loc>
   </url>
 </urlset>
