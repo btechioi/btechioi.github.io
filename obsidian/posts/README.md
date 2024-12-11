@@ -1,9 +1,12 @@
 ---
-created: ["{{date}} {{time}}"]
-aliases: ["Blog Post Code"]
+title: This is a test
+date: 2024-11-06
+draft: true
 tags:
-- Blog/
+  - tag1
+  - tag2
 ---
+
 
 # ❓ Information
 Type:: 

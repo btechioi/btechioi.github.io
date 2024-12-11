@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/about/about/</loc>
+    <loc>https://btechioi.github.io/about/about/</loc>
   </url><url>
-    <loc>/posts/readme/</loc>
+    <loc>https://btechioi.github.io/posts/readme/</loc>
   </url><url>
-    <loc>/posts/this-is-a-test/</loc>
+    <loc>https://btechioi.github.io/posts/this-is-a-test/</loc>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://btechioi.github.io/about/</loc>
   </url><url>
-    <loc>/tags/blog/</loc>
+    <loc>https://btechioi.github.io/tags/blog/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://btechioi.github.io/</loc>
   </url><url>
-    <loc>/tags/contact/</loc>
+    <loc>https://btechioi.github.io/categories/</loc>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://btechioi.github.io/tags/contact/</loc>
   </url><url>
-    <loc>/tags/project/</loc>
+    <loc>https://btechioi.github.io/posts/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://btechioi.github.io/tags/project/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>https://btechioi.github.io/tags/</loc>
   </url>
 </urlset>

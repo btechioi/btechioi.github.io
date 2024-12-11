@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Terminal</title>
-    <link>/tags/blog/</link>
-    <description>Recent content in Blog on Terminal</description>
+    <title>Blog on BTechIOI</title>
+    <link>https://btechioi.github.io/tags/blog/</link>
+    <description>Recent content in Blog on BTechIOI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://btechioi.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>/posts/readme/</link>
+      <link>https://btechioi.github.io/posts/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/posts/readme/</guid>
+      <guid>https://btechioi.github.io/posts/readme/</guid>
       <description>&lt;h1 id=&#34;-information&#34;&gt;❓ Information&lt;/h1&gt;
 &lt;p&gt;Type::
 Writer::
@@ -25,7 +25,7 @@ Price::&lt;/p&gt;
 &lt;h1 id=&#34;-relevant-data&#34;&gt;❗ Relevant data&lt;/h1&gt;
 &lt;h2 id=&#34;-what-is-the-objective&#34;&gt;🎯 What Is The Objective&lt;/h2&gt;
 &lt;h2 id=&#34;-information-resources&#34;&gt;📦 Information Resources&lt;/h2&gt;
-&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Pasted%20image%2020241211133759.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;https://btechioi.github.io/images/Pasted%20image%2020241211133759.png&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;-blog-post--&#34;&gt;🔰 Blog post -&amp;gt;&lt;/h1&gt;
 &lt;p&gt;A blog post is like a conversation, you need to explain the information however you must only speak about subjects you understand and like.&lt;/p&gt;
 &lt;h2 id=&#34;1-intro&#34;&gt;1️⃣ Intro&lt;/h2&gt;
@@ -65,7 +65,7 @@ Price::&lt;/p&gt;
 &lt;h1 id=&#34;-relevant-data&#34;&gt;❗ Relevant data&lt;/h1&gt;
 &lt;h2 id=&#34;-what-is-the-objective&#34;&gt;🎯 What Is The Objective&lt;/h2&gt;
 &lt;h2 id=&#34;-information-resources&#34;&gt;📦 Information Resources&lt;/h2&gt;
-&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Pasted%20image%2020241211133759.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;https://btechioi.github.io/images/Pasted%20image%2020241211133759.png&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;-blog-post--&#34;&gt;🔰 Blog post -&amp;gt;&lt;/h1&gt;
 &lt;p&gt;A blog post is like a conversation, you need to explain the information however you must only speak about subjects you understand and like.&lt;/p&gt;
 &lt;h2 id=&#34;1-intro&#34;&gt;1️⃣ Intro&lt;/h2&gt;

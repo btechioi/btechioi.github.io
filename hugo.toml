@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://btechioi.github.io/"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
@@ -56,13 +56,13 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "BTechIOI"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
-      owner = ""
+      subtitle = "A web site for my projects"
+      owner = "BTechIOI"
       keywords = ""
-      copyright = ""
+      copyright = "© BTechIOI"
       menuMore = "Show more"
       readMore = "Read more"
       readOtherPosts = "Read other posts"
