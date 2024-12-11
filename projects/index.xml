@@ -5,7 +5,129 @@
     <link>https://btechioi.github.io/projects/</link>
     <description>Recent content in Projects on BTechIOI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://btechioi.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://btechioi.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://btechioi.github.io/projects/droneproject/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://btechioi.github.io/projects/droneproject/</guid>
+      <description>&lt;h1 id=&#34;-project---drone-calibration-and-control-system&#34;&gt;🚀 Project -&amp;gt; Drone Calibration and Control System&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-github-repository&#34;&gt;🌐 GitHub Repository&lt;/h2&gt;
+&lt;p&gt;Find the source code and documentation on &lt;a href=&#34;https://github.com/btechioi/Drone-Flight-Controller&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-description&#34;&gt;🧾 Project Description&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This project involves creating a comprehensive system to calibrate, control, and operate a quadcopter drone made with RP2040. The system includes:
+&lt;ul&gt;
+&lt;li&gt;An Arduino-based firmware for real-time sensor reading, PID tuning, and motor control.&lt;/li&gt;
+&lt;li&gt;A Python-based desktop application for PID parameter calibration, manual control of the drone, and safety features like arming/disarming.&lt;/li&gt;
+&lt;li&gt;A robust safety mechanism to prevent accidental motor operation unless explicitly armed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-information&#34;&gt;📢 Project information&lt;/h2&gt;
+&lt;p&gt;Created:: 11-12-2024 {{time}}&lt;br&gt;
+Deadline::&lt;br&gt;
+Hibernating::&lt;br&gt;
+Completion date expected::&lt;br&gt;
+Completed::&lt;br&gt;
+Type:: Embedded Systems &amp;amp; Software Development&lt;br&gt;
+Tags:: Drone, Arduino, Python, PID Control, Safety Mechanisms&lt;br&gt;
+Platform:: Arduino, Tkinter (Python)&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;-project---drone-calibration-and-control-system&#34;&gt;🚀 Project -&amp;gt; Drone Calibration and Control System&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-github-repository&#34;&gt;🌐 GitHub Repository&lt;/h2&gt;
+&lt;p&gt;Find the source code and documentation on &lt;a href=&#34;https://github.com/btechioi/Drone-Flight-Controller&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-description&#34;&gt;🧾 Project Description&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This project involves creating a comprehensive system to calibrate, control, and operate a quadcopter drone made with RP2040. The system includes:
+&lt;ul&gt;
+&lt;li&gt;An Arduino-based firmware for real-time sensor reading, PID tuning, and motor control.&lt;/li&gt;
+&lt;li&gt;A Python-based desktop application for PID parameter calibration, manual control of the drone, and safety features like arming/disarming.&lt;/li&gt;
+&lt;li&gt;A robust safety mechanism to prevent accidental motor operation unless explicitly armed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-information&#34;&gt;📢 Project information&lt;/h2&gt;
+&lt;p&gt;Created:: 11-12-2024 {{time}}&lt;br&gt;
+Deadline::&lt;br&gt;
+Hibernating::&lt;br&gt;
+Completion date expected::&lt;br&gt;
+Completed::&lt;br&gt;
+Type:: Embedded Systems &amp;amp; Software Development&lt;br&gt;
+Tags:: Drone, Arduino, Python, PID Control, Safety Mechanisms&lt;br&gt;
+Platform:: Arduino, Tkinter (Python)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-objective&#34;&gt;🎯 Objective&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;🟢 Ideal project result
+&lt;ol&gt;
+&lt;li&gt;A fully operational drone control system with real-time PID tuning and safe operation ensured by an arming mechanism.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;🟠 Acceptable result
+&lt;ol&gt;
+&lt;li&gt;A functional drone control application with basic PID tuning and motor control.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-expectations&#34;&gt;❓ Expectations&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;🟢 Helpful to the project
+&lt;ol&gt;
+&lt;li&gt;Implementing an intuitive GUI for PID calibration and control.&lt;/li&gt;
+&lt;li&gt;Ensuring a robust safety mechanism to prevent accidents.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;🟠 Roadblocks
+&lt;ol&gt;
+&lt;li&gt;Serial communication reliability between Arduino and Python.&lt;/li&gt;
+&lt;li&gt;Fine-tuning PID parameters for stable flight.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;👶 Naivety
+&lt;ol&gt;
+&lt;li&gt;Expecting all sensors to provide accurate readings without calibration.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;👨‍💻 Insights
+&lt;ol&gt;
+&lt;li&gt;A well-designed arming mechanism greatly improves safety and reliability.&lt;/li&gt;
+&lt;li&gt;Modular code simplifies troubleshooting and feature extension.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-tasks&#34;&gt;✅ Tasks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement and test the arming/disarming functionality in Arduino firmware.&lt;/li&gt;
+&lt;li&gt;Design a Python GUI for PID calibration and real-time drone control.&lt;/li&gt;
+&lt;li&gt;Validate PID tuning process with live feedback from the drone.&lt;/li&gt;
+&lt;li&gt;Test the system under real-world flight conditions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-resources&#34;&gt;📦 Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Arduino Uno and MPU6050 IMU sensor.&lt;/li&gt;
+&lt;li&gt;Python libraries: Tkinter for GUI, PySerial for communication.&lt;/li&gt;
+&lt;li&gt;Drone hardware: Frame, motors, ESCs, and power source.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-logs&#34;&gt;📂 Project Logs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Initial firmware setup completed with motor control and PID structures.&lt;/li&gt;
+&lt;li&gt;Python GUI designed with sliders for control input and arming buttons.&lt;/li&gt;
+&lt;li&gt;Safety mechanism implemented and tested in simulation.&lt;/li&gt;
+&lt;li&gt;Awaiting field testing and final adjustments.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>
