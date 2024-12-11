@@ -18,7 +18,7 @@
 date: 2024-12-11&lt;/h2&gt;
 &lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 &lt;hr&gt;
-&lt;p&gt;![[avatar.png|150]]&lt;/p&gt;
+&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;https://btechioi.github.io/images/avatar.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;---contact-info&#34;&gt;👨‍💼 - Contact Info&lt;/h2&gt;
 &lt;p&gt;Full Name:: Banumath Hettiarachchi&lt;/p&gt;
 &lt;p&gt;Email:: &lt;a href=&#34;mailto:banumathhettiarachchi@gmail.com&#34;&gt;banumathhettiarachchi@gmail.com&lt;/a&gt;&lt;/p&gt;
@@ -53,7 +53,7 @@ date: 2024-12-11&lt;/h2&gt;
 date: 2024-12-11&lt;/h2&gt;
 &lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 &lt;hr&gt;
-&lt;p&gt;![[avatar.png|150]]&lt;/p&gt;
+&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;https://btechioi.github.io/images/avatar.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;---contact-info&#34;&gt;👨‍💼 - Contact Info&lt;/h2&gt;
 &lt;p&gt;Full Name:: Banumath Hettiarachchi&lt;/p&gt;
 &lt;p&gt;Email:: &lt;a href=&#34;mailto:banumathhettiarachchi@gmail.com&#34;&gt;banumathhettiarachchi@gmail.com&lt;/a&gt;&lt;/p&gt;
@@ -87,92 +87,170 @@ date: 2024-12-11&lt;/h2&gt;
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://btechioi.github.io/posts/about-1/</link>
+      <title>Hello World! Welcome to My Blog</title>
+      <link>https://btechioi.github.io/posts/first-post/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://btechioi.github.io/posts/about-1/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;date-2024-12-11&#34;&gt;title: About
-date: 2024-12-11&lt;/h2&gt;
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-&lt;hr&gt;
-&lt;p&gt;![[avatar.png|150]]&lt;/p&gt;
-&lt;h2 id=&#34;---contact-info&#34;&gt;👨‍💼 - Contact Info&lt;/h2&gt;
-&lt;p&gt;Full Name:: Banumath Hettiarachchi&lt;/p&gt;
-&lt;p&gt;Email:: &lt;a href=&#34;mailto:banumathhettiarachchi@gmail.com&#34;&gt;banumathhettiarachchi@gmail.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Date of Birth:: 31st August 2005&lt;/p&gt;
-&lt;p&gt;Nickname:: BTechIOI&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;---hobbies--interests&#34;&gt;🌟 - Hobbies &amp;amp; Interests&lt;/h2&gt;
+      <guid>https://btechioi.github.io/posts/first-post/</guid>
+      <description>&lt;h1 id=&#34;hello-world-welcome-to-my-blog-&#34;&gt;Hello World! Welcome to My Blog 👋&lt;/h1&gt;
+&lt;p&gt;Hi there! I&amp;rsquo;m Banumath, and this is the first post of what I hope will be an exciting journey into sharing ideas, projects, and experiences. Here&amp;rsquo;s what you can expect from this space:&lt;/p&gt;
+&lt;h2 id=&#34;-what-this-blog-is-about&#34;&gt;🌟 What This Blog is About&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Tech and Coding Adventures&lt;/strong&gt;: I&amp;rsquo;ll share insights, tutorials, and challenges I&amp;rsquo;ve tackled in technologies like Python, Arduino, Streamlit, and more.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Spotlights&lt;/strong&gt;: Updates and details about ongoing and completed projects, from interactive UIs to hardware integrations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning Logs&lt;/strong&gt;: Notes and reflections as I explore new tools and frameworks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personal Musings&lt;/strong&gt;: Thoughts on productivity, creativity, and the joys (and struggles) of being a tech enthusiast.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-my-current-focus&#34;&gt;🌱 My Current Focus&lt;/h2&gt;
+&lt;p&gt;Right now, I&amp;rsquo;m diving deep into:&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;hello-world-welcome-to-my-blog-&#34;&gt;Hello World! Welcome to My Blog 👋&lt;/h1&gt;
+&lt;p&gt;Hi there! I&amp;rsquo;m Banumath, and this is the first post of what I hope will be an exciting journey into sharing ideas, projects, and experiences. Here&amp;rsquo;s what you can expect from this space:&lt;/p&gt;
+&lt;h2 id=&#34;-what-this-blog-is-about&#34;&gt;🌟 What This Blog is About&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Tech and Coding Adventures&lt;/strong&gt;: I&amp;rsquo;ll share insights, tutorials, and challenges I&amp;rsquo;ve tackled in technologies like Python, Arduino, Streamlit, and more.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project Spotlights&lt;/strong&gt;: Updates and details about ongoing and completed projects, from interactive UIs to hardware integrations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning Logs&lt;/strong&gt;: Notes and reflections as I explore new tools and frameworks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personal Musings&lt;/strong&gt;: Thoughts on productivity, creativity, and the joys (and struggles) of being a tech enthusiast.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-my-current-focus&#34;&gt;🌱 My Current Focus&lt;/h2&gt;
+&lt;p&gt;Right now, I&amp;rsquo;m diving deep into:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Technology and Innovation&lt;/li&gt;
-&lt;li&gt;Programming and Development&lt;/li&gt;
-&lt;li&gt;Learning New Skills&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Voice-Enabled Chatbots&lt;/strong&gt;: Combining Streamlit, Gradio, and voice recognition for accessible AI interactions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Arduino Projects&lt;/strong&gt;: Experimenting with sensors and automation using Arduino Uno.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;---goals--aspirations&#34;&gt;🎯 - Goals &amp;amp; Aspirations&lt;/h2&gt;
+&lt;h2 id=&#34;-lets-connect&#34;&gt;🤝 Let&amp;rsquo;s Connect&lt;/h2&gt;
+&lt;p&gt;This blog is as much about community as it is about content. I’d love to hear your thoughts, feedback, or suggestions for future posts. Feel free to reach out via:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Personal Development&lt;/strong&gt;: Continuously improve my technical skills by learning new programming languages and frameworks.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Innovative Projects&lt;/strong&gt;: Contribute to open-source projects and work on innovative technology solutions that solve real-world problems.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Entrepreneurship&lt;/strong&gt;: In the future, I aim to start my own tech company focused on creating cutting-edge solutions in the field of AI and IoT.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Learning &amp;amp; Mentoring&lt;/strong&gt;: Share my knowledge with others through blogs, tutorials, and mentoring, helping others grow in their technical careers.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Actively participate in community events and initiatives, focusing on making technology more accessible to underserved groups.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/btechioi/Drone-Flight-Controller&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:banumathhettiarachchi@gmail.com&#34;&gt;banumathhettiarachchi@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Instagram&lt;/strong&gt;: &lt;a href=&#34;https://www.instagram.com/btech_ioi/&#34;&gt;btech_ioi&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;---experience--skills&#34;&gt;💼 - Experience &amp;amp; Skills&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Arduino Uno Projects&lt;/li&gt;
-&lt;li&gt;Chatbot Development using Streamlit and Gradio&lt;/li&gt;
-&lt;li&gt;PySide6 GUI Applications&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;</description>
-      <content>&lt;hr&gt;
-&lt;h2 id=&#34;date-2024-12-11&#34;&gt;title: About
-date: 2024-12-11&lt;/h2&gt;
-&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
-&lt;hr&gt;
-&lt;p&gt;![[avatar.png|150]]&lt;/p&gt;
-&lt;h2 id=&#34;---contact-info&#34;&gt;👨‍💼 - Contact Info&lt;/h2&gt;
-&lt;p&gt;Full Name:: Banumath Hettiarachchi&lt;/p&gt;
-&lt;p&gt;Email:: &lt;a href=&#34;mailto:banumathhettiarachchi@gmail.com&#34;&gt;banumathhettiarachchi@gmail.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Date of Birth:: 31st August 2005&lt;/p&gt;
-&lt;p&gt;Nickname:: BTechIOI&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;---hobbies--interests&#34;&gt;🌟 - Hobbies &amp;amp; Interests&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Technology and Innovation&lt;/li&gt;
-&lt;li&gt;Programming and Development&lt;/li&gt;
-&lt;li&gt;Learning New Skills&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;---goals--aspirations&#34;&gt;🎯 - Goals &amp;amp; Aspirations&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Personal Development&lt;/strong&gt;: Continuously improve my technical skills by learning new programming languages and frameworks.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Innovative Projects&lt;/strong&gt;: Contribute to open-source projects and work on innovative technology solutions that solve real-world problems.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Entrepreneurship&lt;/strong&gt;: In the future, I aim to start my own tech company focused on creating cutting-edge solutions in the field of AI and IoT.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Learning &amp;amp; Mentoring&lt;/strong&gt;: Share my knowledge with others through blogs, tutorials, and mentoring, helping others grow in their technical careers.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Actively participate in community events and initiatives, focusing on making technology more accessible to underserved groups.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;---experience--skills&#34;&gt;💼 - Experience &amp;amp; Skills&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Arduino Uno Projects&lt;/li&gt;
-&lt;li&gt;Chatbot Development using Streamlit and Gradio&lt;/li&gt;
-&lt;li&gt;PySide6 GUI Applications&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
+&lt;p&gt;Thank you for stopping by. Stay tuned for more posts coming soon!&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;br&gt;
+Banumath.&lt;/p&gt;
 </content>
     </item>
     
     <item>
       <title></title>
-      <link>https://btechioi.github.io/posts/untitled/</link>
+      <link>https://btechioi.github.io/projects/droneproject/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://btechioi.github.io/posts/untitled/</guid>
-      <description>&lt;p&gt;this is  a test&lt;/p&gt;</description>
-      <content>&lt;p&gt;this is  a test&lt;/p&gt;
+      <guid>https://btechioi.github.io/projects/droneproject/</guid>
+      <description>&lt;h1 id=&#34;-project---drone-calibration-and-control-system&#34;&gt;🚀 Project -&amp;gt; Drone Calibration and Control System&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-github-repository&#34;&gt;🌐 GitHub Repository&lt;/h2&gt;
+&lt;p&gt;Find the source code and documentation on &lt;a href=&#34;https://github.com/btechioi/Drone-Flight-Controller&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-description&#34;&gt;🧾 Project Description&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This project involves creating a comprehensive system to calibrate, control, and operate a quadcopter drone made with RP2040. The system includes:
+&lt;ul&gt;
+&lt;li&gt;An Arduino-based firmware for real-time sensor reading, PID tuning, and motor control.&lt;/li&gt;
+&lt;li&gt;A Python-based desktop application for PID parameter calibration, manual control of the drone, and safety features like arming/disarming.&lt;/li&gt;
+&lt;li&gt;A robust safety mechanism to prevent accidental motor operation unless explicitly armed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-information&#34;&gt;📢 Project information&lt;/h2&gt;
+&lt;p&gt;Created:: 11-12-2024 {{time}}&lt;br&gt;
+Deadline::&lt;br&gt;
+Hibernating::&lt;br&gt;
+Completion date expected::&lt;br&gt;
+Completed::&lt;br&gt;
+Type:: Embedded Systems &amp;amp; Software Development&lt;br&gt;
+Tags:: Drone, Arduino, Python, PID Control, Safety Mechanisms&lt;br&gt;
+Platform:: Arduino, Tkinter (Python)&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;-project---drone-calibration-and-control-system&#34;&gt;🚀 Project -&amp;gt; Drone Calibration and Control System&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-github-repository&#34;&gt;🌐 GitHub Repository&lt;/h2&gt;
+&lt;p&gt;Find the source code and documentation on &lt;a href=&#34;https://github.com/btechioi/Drone-Flight-Controller&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-description&#34;&gt;🧾 Project Description&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This project involves creating a comprehensive system to calibrate, control, and operate a quadcopter drone made with RP2040. The system includes:
+&lt;ul&gt;
+&lt;li&gt;An Arduino-based firmware for real-time sensor reading, PID tuning, and motor control.&lt;/li&gt;
+&lt;li&gt;A Python-based desktop application for PID parameter calibration, manual control of the drone, and safety features like arming/disarming.&lt;/li&gt;
+&lt;li&gt;A robust safety mechanism to prevent accidental motor operation unless explicitly armed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-information&#34;&gt;📢 Project information&lt;/h2&gt;
+&lt;p&gt;Created:: 11-12-2024 {{time}}&lt;br&gt;
+Deadline::&lt;br&gt;
+Hibernating::&lt;br&gt;
+Completion date expected::&lt;br&gt;
+Completed::&lt;br&gt;
+Type:: Embedded Systems &amp;amp; Software Development&lt;br&gt;
+Tags:: Drone, Arduino, Python, PID Control, Safety Mechanisms&lt;br&gt;
+Platform:: Arduino, Tkinter (Python)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-objective&#34;&gt;🎯 Objective&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;🟢 Ideal project result
+&lt;ol&gt;
+&lt;li&gt;A fully operational drone control system with real-time PID tuning and safe operation ensured by an arming mechanism.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;🟠 Acceptable result
+&lt;ol&gt;
+&lt;li&gt;A functional drone control application with basic PID tuning and motor control.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-expectations&#34;&gt;❓ Expectations&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;🟢 Helpful to the project
+&lt;ol&gt;
+&lt;li&gt;Implementing an intuitive GUI for PID calibration and control.&lt;/li&gt;
+&lt;li&gt;Ensuring a robust safety mechanism to prevent accidents.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;🟠 Roadblocks
+&lt;ol&gt;
+&lt;li&gt;Serial communication reliability between Arduino and Python.&lt;/li&gt;
+&lt;li&gt;Fine-tuning PID parameters for stable flight.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;👶 Naivety
+&lt;ol&gt;
+&lt;li&gt;Expecting all sensors to provide accurate readings without calibration.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;👨‍💻 Insights
+&lt;ol&gt;
+&lt;li&gt;A well-designed arming mechanism greatly improves safety and reliability.&lt;/li&gt;
+&lt;li&gt;Modular code simplifies troubleshooting and feature extension.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-tasks&#34;&gt;✅ Tasks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement and test the arming/disarming functionality in Arduino firmware.&lt;/li&gt;
+&lt;li&gt;Design a Python GUI for PID calibration and real-time drone control.&lt;/li&gt;
+&lt;li&gt;Validate PID tuning process with live feedback from the drone.&lt;/li&gt;
+&lt;li&gt;Test the system under real-world flight conditions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-resources&#34;&gt;📦 Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Arduino Uno and MPU6050 IMU sensor.&lt;/li&gt;
+&lt;li&gt;Python libraries: Tkinter for GUI, PySerial for communication.&lt;/li&gt;
+&lt;li&gt;Drone hardware: Frame, motors, ESCs, and power source.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-logs&#34;&gt;📂 Project Logs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Initial firmware setup completed with motor control and PID structures.&lt;/li&gt;
+&lt;li&gt;Python GUI designed with sliders for control input and arming buttons.&lt;/li&gt;
+&lt;li&gt;Safety mechanism implemented and tested in simulation.&lt;/li&gt;
+&lt;li&gt;Awaiting field testing and final adjustments.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     

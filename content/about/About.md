@@ -10,7 +10,7 @@ date: 2024-12-11
 # About  
 ----  
 
-![[avatar.png|150]]
+!![Image Description](/images/avatar.png)
 
 
 ## 👨‍💼 - Contact Info  
