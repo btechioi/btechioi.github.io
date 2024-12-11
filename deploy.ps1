@@ -2,7 +2,7 @@
 
 # Set variables for Obsidian to Hugo copy
 $sourcePath = "C:\Users\Banumath\Documents\Website\Content"
-$destinationPath = "C:\Users\Banumath\Documents\btechioi.github.io\obsidian"
+$destinationPath = "C:\Users\Banumath\Documents\btechioi.github.io\content"
 
 # Set Github repo 
 $myrepo = "btechioi.github.io"
