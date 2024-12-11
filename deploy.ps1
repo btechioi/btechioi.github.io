@@ -5,7 +5,7 @@ $sourcePath = "C:\Users\Banumath\Documents\Website\Content"
 $destinationPath = "C:\Users\Banumath\Documents\btechioi.github.io\obsidian"
 
 # Set Github repo 
-$myrepo = "reponame"
+$myrepo = "btechioi.github.io"
 
 # Set error handling
 $ErrorActionPreference = "Stop"
