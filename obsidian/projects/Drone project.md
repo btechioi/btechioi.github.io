@@ -3,12 +3,8 @@ title: Drone Calibration and Control System
 date: 2024-12-11
 draft: true
 tags:
-  - 📢Project
-  - Drone
-  - Arduino
-  - Python
-  - PIDControl
-Type: Embedded Systems & Software
+  - 📢Project 
+  -  Drone Arduino Python PID Control
 ---
 
 # 🚀 Project -> Drone Calibration and Control System
@@ -22,14 +18,14 @@ ___
 
 ---
 ## 📢 Project information
-Created:: 11-12-2024 10:30 AM  
-Deadline:: 30-01-2025  
-Hibernating:: No  
-Completion date expected:: 25-01-2025  
-Completed:: No  
-Type:: Embedded Systems & Software  
-Tags:: Drone, PID Tuning, Safety Mechanisms  
-Platform:: RP2040, Python  
+Created:: 11-12-2024 {{time}}
+Deadline:: 
+Hibernating:: 
+Completion date expected:: 
+Completed:: 
+Type:: Embedded Systems & Software Development
+Tags:: Drone, Arduino, Python, PID Control, Safety Mechanisms
+Platform:: Arduino, Tkinter (Python)
 
 ___
 ## 🎯 Objective
@@ -59,7 +55,7 @@ ___
 - Test the system under real-world flight conditions.
 
 ## 📦 Resources 
-- RP2040 and MPU6050 IMU sensor.
+- Arduino Uno and MPU6050 IMU sensor.
 - Python libraries: Tkinter for GUI, PySerial for communication.
 - Drone hardware: Frame, motors, ESCs, and power source.
 
