@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project on BTechIOI</title>
-    <link>https://btechioi.github.io/tags/project/</link>
+    <link>http://localhost:1313/tags/project/</link>
     <description>Recent content in Project on BTechIOI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://btechioi.github.io/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="http://localhost:1313/tags/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://btechioi.github.io/posts/this-is-a-test/</link>
+      <link>http://localhost:1313/posts/this-is-a-test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://btechioi.github.io/posts/this-is-a-test/</guid>
+      <guid>http://localhost:1313/posts/this-is-a-test/</guid>
       <description>&lt;h1 id=&#34;-project--&#34;&gt;🚀 Project -&amp;gt;&lt;/h1&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-project-description&#34;&gt;🧾 Project Description&lt;/h2&gt;

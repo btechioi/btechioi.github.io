@@ -5,45 +5,84 @@
     <link>https://btechioi.github.io/about/</link>
     <description>Recent content in Abouts on BTechIOI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://btechioi.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://btechioi.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>About</title>
       <link>https://btechioi.github.io/about/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>https://btechioi.github.io/about/about/</guid>
-      <description>&lt;h1 id=&#34;title&#34;&gt;{{title}}&lt;/h1&gt;
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;date-2024-12-11&#34;&gt;title: About
+date: 2024-12-11&lt;/h2&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 &lt;hr&gt;
+&lt;p&gt;![[avatar.png|150]]&lt;/p&gt;
 &lt;h2 id=&#34;---contact-info&#34;&gt;👨‍💼 - Contact Info&lt;/h2&gt;
-&lt;p&gt;Full Name::
-Email::
-Company::
-Phone::
-Address::
-Linked Files::&lt;/p&gt;
+&lt;p&gt;Full Name:: Banumath Hettiarachchi&lt;/p&gt;
+&lt;p&gt;Email:: &lt;a href=&#34;mailto:banumathhettiarachchi@gmail.com&#34;&gt;banumathhettiarachchi@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Date of Birth:: 31st August 2005&lt;/p&gt;
+&lt;p&gt;Nickname:: BTechIOI&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;log&#34;&gt;Log&lt;/h2&gt;
+&lt;h2 id=&#34;---hobbies--interests&#34;&gt;🌟 - Hobbies &amp;amp; Interests&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;Technology and Innovation&lt;/li&gt;
+&lt;li&gt;Programming and Development&lt;/li&gt;
+&lt;li&gt;Learning New Skills&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;date-time---initial-creation&#34;&gt;{{date}} {{time}} - Initial Creation&lt;/h3&gt;
-&lt;p&gt;notes_go_here&lt;/p&gt;</description>
-      <content>&lt;h1 id=&#34;title&#34;&gt;{{title}}&lt;/h1&gt;
 &lt;hr&gt;
+&lt;h2 id=&#34;---goals--aspirations&#34;&gt;🎯 - Goals &amp;amp; Aspirations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Personal Development&lt;/strong&gt;: Continuously improve my technical skills by learning new programming languages and frameworks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Innovative Projects&lt;/strong&gt;: Contribute to open-source projects and work on innovative technology solutions that solve real-world problems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Entrepreneurship&lt;/strong&gt;: In the future, I aim to start my own tech company focused on creating cutting-edge solutions in the field of AI and IoT.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning &amp;amp; Mentoring&lt;/strong&gt;: Share my knowledge with others through blogs, tutorials, and mentoring, helping others grow in their technical careers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Actively participate in community events and initiatives, focusing on making technology more accessible to underserved groups.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;---experience--skills&#34;&gt;💼 - Experience &amp;amp; Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Arduino Uno Projects&lt;/li&gt;
+&lt;li&gt;Chatbot Development using Streamlit and Gradio&lt;/li&gt;
+&lt;li&gt;PySide6 GUI Applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</description>
+      <content>&lt;hr&gt;
+&lt;h2 id=&#34;date-2024-12-11&#34;&gt;title: About
+date: 2024-12-11&lt;/h2&gt;
+&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;![[avatar.png|150]]&lt;/p&gt;
 &lt;h2 id=&#34;---contact-info&#34;&gt;👨‍💼 - Contact Info&lt;/h2&gt;
-&lt;p&gt;Full Name::
-Email::
-Company::
-Phone::
-Address::
-Linked Files::&lt;/p&gt;
+&lt;p&gt;Full Name:: Banumath Hettiarachchi&lt;/p&gt;
+&lt;p&gt;Email:: &lt;a href=&#34;mailto:banumathhettiarachchi@gmail.com&#34;&gt;banumathhettiarachchi@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Date of Birth:: 31st August 2005&lt;/p&gt;
+&lt;p&gt;Nickname:: BTechIOI&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;log&#34;&gt;Log&lt;/h2&gt;
+&lt;h2 id=&#34;---hobbies--interests&#34;&gt;🌟 - Hobbies &amp;amp; Interests&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;Technology and Innovation&lt;/li&gt;
+&lt;li&gt;Programming and Development&lt;/li&gt;
+&lt;li&gt;Learning New Skills&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;date-time---initial-creation&#34;&gt;{{date}} {{time}} - Initial Creation&lt;/h3&gt;
-&lt;p&gt;notes_go_here&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;---goals--aspirations&#34;&gt;🎯 - Goals &amp;amp; Aspirations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Personal Development&lt;/strong&gt;: Continuously improve my technical skills by learning new programming languages and frameworks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Innovative Projects&lt;/strong&gt;: Contribute to open-source projects and work on innovative technology solutions that solve real-world problems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Entrepreneurship&lt;/strong&gt;: In the future, I aim to start my own tech company focused on creating cutting-edge solutions in the field of AI and IoT.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning &amp;amp; Mentoring&lt;/strong&gt;: Share my knowledge with others through blogs, tutorials, and mentoring, helping others grow in their technical careers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Community Impact&lt;/strong&gt;: Actively participate in community events and initiatives, focusing on making technology more accessible to underserved groups.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;---experience--skills&#34;&gt;💼 - Experience &amp;amp; Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Arduino Uno Projects&lt;/li&gt;
+&lt;li&gt;Chatbot Development using Streamlit and Gradio&lt;/li&gt;
+&lt;li&gt;PySide6 GUI Applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
 </content>
     </item>
     
