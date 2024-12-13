@@ -129,5 +129,133 @@ Platform:: Arduino, Tkinter (Python)&lt;/p&gt;
 </content>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://btechioi.github.io/projects/updated-flight-controller/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://btechioi.github.io/projects/updated-flight-controller/</guid>
+      <description>&lt;h1 id=&#34;-project---esp-fc-multicore--rtos-integration-alpha-release&#34;&gt;🚀 Project -&amp;gt; ESP-FC: Multicore &amp;amp; RTOS Integration (Alpha Release)&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-github-repository&#34;&gt;🌐 GitHub Repository&lt;/h2&gt;
+&lt;p&gt;Find the source code and documentation on &lt;a href=&#34;https://github.com/rtlopez/esp-fc&#34;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
+Also, check out my GitHub profile: &lt;a href=&#34;https://github.com/btechioi&#34;&gt;BTechIOI&lt;/a&gt;.
+yea&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-description&#34;&gt;🧾 Project Description&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ESP-FC is an advanced firmware designed for seamless multicore and RTOS integration on microcontrollers like ESP32 and RP2040. The project includes:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Conditional Compilation&lt;/strong&gt;: Platform-specific optimizations for ESP32, RP2040, and single-core setups.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-Time Operating Systems&lt;/strong&gt;: FreeRTOS integration for efficient task management.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sensor Fusion Algorithms&lt;/strong&gt;: Kalman, Madgwick, and Mahony filters for accurate motion tracking.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hardware Timer Usage&lt;/strong&gt;: Precise execution of critical routines such as gyro updates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-information&#34;&gt;📢 Project Information&lt;/h2&gt;
+&lt;p&gt;Created:: 13-12-2024 {{time}}&lt;br&gt;
+Deadline::&lt;br&gt;
+Hibernating::&lt;br&gt;
+Completion date expected::&lt;br&gt;
+Completed::&lt;br&gt;
+Type:: Firmware Development &amp;amp; Embedded Systems&lt;br&gt;
+Tags:: ESP32, RP2040, RTOS, Multicore, Sensor Fusion&lt;br&gt;
+Platform:: Arduino, FreeRTOS&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;-project---esp-fc-multicore--rtos-integration-alpha-release&#34;&gt;🚀 Project -&amp;gt; ESP-FC: Multicore &amp;amp; RTOS Integration (Alpha Release)&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-github-repository&#34;&gt;🌐 GitHub Repository&lt;/h2&gt;
+&lt;p&gt;Find the source code and documentation on &lt;a href=&#34;https://github.com/rtlopez/esp-fc&#34;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
+Also, check out my GitHub profile: &lt;a href=&#34;https://github.com/btechioi&#34;&gt;BTechIOI&lt;/a&gt;.
+yea&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-description&#34;&gt;🧾 Project Description&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ESP-FC is an advanced firmware designed for seamless multicore and RTOS integration on microcontrollers like ESP32 and RP2040. The project includes:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Conditional Compilation&lt;/strong&gt;: Platform-specific optimizations for ESP32, RP2040, and single-core setups.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-Time Operating Systems&lt;/strong&gt;: FreeRTOS integration for efficient task management.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sensor Fusion Algorithms&lt;/strong&gt;: Kalman, Madgwick, and Mahony filters for accurate motion tracking.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hardware Timer Usage&lt;/strong&gt;: Precise execution of critical routines such as gyro updates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-information&#34;&gt;📢 Project Information&lt;/h2&gt;
+&lt;p&gt;Created:: 13-12-2024 {{time}}&lt;br&gt;
+Deadline::&lt;br&gt;
+Hibernating::&lt;br&gt;
+Completion date expected::&lt;br&gt;
+Completed::&lt;br&gt;
+Type:: Firmware Development &amp;amp; Embedded Systems&lt;br&gt;
+Tags:: ESP32, RP2040, RTOS, Multicore, Sensor Fusion&lt;br&gt;
+Platform:: Arduino, FreeRTOS&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-objective&#34;&gt;🎯 Objective&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;🟢 &lt;strong&gt;Ideal project result&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;A fully functional multicore and RTOS-integrated firmware for ESP32 and RP2040, supporting real-time task management and sensor fusion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🟠 &lt;strong&gt;Acceptable result&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;A single-core firmware fallback with basic real-time task execution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-expectations&#34;&gt;❓ Expectations&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;🟢 &lt;strong&gt;Helpful to the project&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficient use of multicore capabilities.&lt;/li&gt;
+&lt;li&gt;Smooth integration of FreeRTOS for real-time task management.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🟠 &lt;strong&gt;Roadblocks&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Debugging FreeRTOS-specific tasks and timer ISR implementations.&lt;/li&gt;
+&lt;li&gt;Ensuring accurate sensor fusion despite environmental noise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;👶 &lt;strong&gt;Naivety&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Assuming hardware timers work identically across platforms without adaptation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;👨‍💻 &lt;strong&gt;Insights&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Modular architecture simplifies debugging and future enhancements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-tasks&#34;&gt;✅ Tasks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement FreeRTOS-based gyro and PID update tasks for ESP32.&lt;/li&gt;
+&lt;li&gt;Validate multicore task splitting on RP2040 using &lt;code&gt;multicore_launch_core1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Develop fallback support for single-core systems.&lt;/li&gt;
+&lt;li&gt;Test sensor fusion algorithms under real-world conditions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-resources&#34;&gt;📦 Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ESP32 and RP2040 microcontrollers.&lt;/li&gt;
+&lt;li&gt;Libraries: FreeRTOS, Madgwick, Mahony, Kalman filters.&lt;/li&gt;
+&lt;li&gt;Development tools: Arduino IDE, PlatformIO.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-logs&#34;&gt;📂 Project Logs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Initial configuration for ESP32 completed with FreeRTOS task creation.&lt;/li&gt;
+&lt;li&gt;Multicore implementation for RP2040 validated using hardware timers.&lt;/li&gt;
+&lt;li&gt;Single-core fallback tested successfully with simulated tasks.&lt;/li&gt;
+&lt;li&gt;Sensor fusion accuracy evaluation pending real-world testing.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>

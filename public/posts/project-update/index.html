@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title> :: BTechIOI</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="🌟 ESP-FC: Multicore &amp; RTOS Integration (Alpha Release) 🌟 🚀 ESP-FC is cutting-edge firmware designed for seamless multicore 🌐 and RTOS ⚙️ integration on microcontrollers like ESP32 and RP2040. This is an alpha release based on the GitHub Repository. Below is an overview of its 🧩 capabilities, 🏛️ architecture, and 🌟 practical applications.
+🔍 Overview This firmware leverages:
+🧠 Multicore Support: Optimized for dual-core processors (e.g., RP2040, ESP32). ⏱️ Real-Time Operating Systems: Integrates FreeRTOS for task management on ESP32. 🕒 Hardware Timers: Ensures precision for tasks like gyro updates. 📈 Sensor Fusion Algorithms: Includes Madgwick, Mahony, and Kalman filters for accurate motion tracking. ✨ Key Features ✅ Conditional platform-specific compilation. 🛠️ Separate task management for critical routines. 🧑‍💻 Fallback for single-core microcontrollers. 🖥️ Code Insights ⚙️ Platform-Specific Implementations 🌀 RP2040 Multicore Configuration Efficient task splitting across cores:
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://btechioi.github.io/posts/project-update/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/fonts.min.4881f0c525f3ce2a1864fb6e96676396cebe1e6fcef1933e8e1dde7041004fb5.css">
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/main.min.fe8dc560fccb53a458b0db19ccb7b265764ac46b68596b7e099c6793054dd457.css">
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/terminal.min.dc2e1e91ca9ae0d52c2d6b34545bd12dc4ac3bf1a0f0ce2b082fd030f13074c1.css">
+
+  
+  <link rel="stylesheet" href="https://btechioi.github.io/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="https://btechioi.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://btechioi.github.io/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="">
+<meta property="og:description" content="🌟 ESP-FC: Multicore &amp; RTOS Integration (Alpha Release) 🌟 🚀 ESP-FC is cutting-edge firmware designed for seamless multicore 🌐 and RTOS ⚙️ integration on microcontrollers like ESP32 and RP2040. This is an alpha release based on the GitHub Repository. Below is an overview of its 🧩 capabilities, 🏛️ architecture, and 🌟 practical applications.
+🔍 Overview This firmware leverages:
+🧠 Multicore Support: Optimized for dual-core processors (e.g., RP2040, ESP32). ⏱️ Real-Time Operating Systems: Integrates FreeRTOS for task management on ESP32. 🕒 Hardware Timers: Ensures precision for tasks like gyro updates. 📈 Sensor Fusion Algorithms: Includes Madgwick, Mahony, and Kalman filters for accurate motion tracking. ✨ Key Features ✅ Conditional platform-specific compilation. 🛠️ Separate task management for critical routines. 🧑‍💻 Fallback for single-core microcontrollers. 🖥️ Code Insights ⚙️ Platform-Specific Implementations 🌀 RP2040 Multicore Configuration Efficient task splitting across cores:
+" />
+<meta property="og:url" content="https://btechioi.github.io/posts/project-update/" />
+<meta property="og:site_name" content="BTechIOI" />
+
+  <meta property="og:image" content="https://btechioi.github.io/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Terminal
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/projects">Projects</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/projects" >Projects</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://btechioi.github.io/posts/project-update/"></a>
+  </h1>
+  <div class="post-meta"></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="-esp-fc-multicore--rtos-integration-alpha-release-">🌟 ESP-FC: Multicore &amp; RTOS Integration (Alpha Release) 🌟<a href="#-esp-fc-multicore--rtos-integration-alpha-release-" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>🚀 <strong>ESP-FC</strong> is cutting-edge firmware designed for seamless multicore 🌐 and RTOS ⚙️ integration on microcontrollers like ESP32 and RP2040. This is an <strong>alpha release</strong> based on the <a href="https://github.com/rtlopez/esp-fc">GitHub Repository</a>. Below is an overview of its 🧩 capabilities, 🏛️ architecture, and 🌟 practical applications.</p>
+<hr>
+<h2 id="-overview">🔍 Overview<a href="#-overview" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>This firmware leverages:</p>
+<ul>
+<li>🧠 <strong>Multicore Support</strong>: Optimized for dual-core processors (e.g., RP2040, ESP32).</li>
+<li>⏱️ <strong>Real-Time Operating Systems</strong>: Integrates FreeRTOS for task management on ESP32.</li>
+<li>🕒 <strong>Hardware Timers</strong>: Ensures precision for tasks like gyro updates.</li>
+<li>📈 <strong>Sensor Fusion Algorithms</strong>: Includes <code>Madgwick</code>, <code>Mahony</code>, and <code>Kalman</code> filters for accurate motion tracking.</li>
+</ul>
+<h3 id="-key-features">✨ Key Features<a href="#-key-features" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>✅ Conditional platform-specific compilation.</li>
+<li>🛠️ Separate task management for critical routines.</li>
+<li>🧑‍💻 Fallback for single-core microcontrollers.</li>
+</ul>
+<hr>
+<h2 id="-code-insights">🖥️ Code Insights<a href="#-code-insights" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="-platform-specific-implementations">⚙️ Platform-Specific Implementations<a href="#-platform-specific-implementations" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h4 id="-rp2040-multicore-configuration">🌀 <strong>RP2040 Multicore Configuration</strong><a href="#-rp2040-multicore-configuration" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<p>Efficient task splitting across cores:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>repeating_timer_t timer;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">bool</span> <span style="color:#a6e22e">timer_callback</span>(<span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">repeating_timer</span> <span style="color:#f92672">*</span>t) {
+</span></span><span style="display:flex;"><span>    espfc.update(true); <span style="color:#75715e">// Perform the gyro update
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> true;        <span style="color:#75715e">// Keep the timer running
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
+</span></span><span style="display:flex;"><span>    espfc.load();        <span style="color:#75715e">// Load configurations
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    espfc.begin();       <span style="color:#75715e">// Initialize the system
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>    add_repeating_timer_us(<span style="color:#f92672">-</span>espfc.getGyroInterval(), timer_callback, NULL, <span style="color:#f92672">&amp;</span>timer);
+</span></span><span style="display:flex;"><span>    multicore_launch_core1(core1_task); <span style="color:#75715e">// Launch secondary core tasks
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><h4 id="-esp32-freertos-integration">⚡ <strong>ESP32 FreeRTOS Integration</strong><a href="#-esp32-freertos-integration" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<p>Dedicated tasks for real-time operations:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">gyroTask</span>(<span style="color:#66d9ef">void</span> <span style="color:#f92672">*</span>pvParameters) {
+</span></span><span style="display:flex;"><span>    espfc.begin();
+</span></span><span style="display:flex;"><span>    gyroTimerInit(gyroTimerIsr, espfc.getGyroInterval());
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (true) {
+</span></span><span style="display:flex;"><span>        ulTaskNotifyTake(pdTRUE, portMAX_DELAY); <span style="color:#75715e">// Wait for timer notification
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        espfc.update(true);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
+</span></span><span style="display:flex;"><span>    disableCore0WDT(); <span style="color:#75715e">// Disable Core 0 watchdog
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    espfc.load();
+</span></span><span style="display:flex;"><span>    xTaskCreateUniversal(gyroTask, <span style="color:#e6db74">&#34;gyroTask&#34;</span>, <span style="color:#ae81ff">8192</span>, NULL, <span style="color:#ae81ff">24</span>, <span style="color:#f92672">&amp;</span>gyroTaskHandle, <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="-single-core-fallback">🧩 <strong>Single-Core Fallback</strong><a href="#-single-core-fallback" class="hanchor" ariaLabel="Anchor">#</a> </h4>
+<p>For simpler setups:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
+</span></span><span style="display:flex;"><span>    espfc.load();
+</span></span><span style="display:flex;"><span>    espfc.begin();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">loop</span>() {
+</span></span><span style="display:flex;"><span>    espfc.update();
+</span></span><span style="display:flex;"><span>    espfc.updateOther();
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><hr>
+<h2 id="-practical-applications">🌟 Practical Applications<a href="#-practical-applications" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>ESP-FC’s architecture makes it ideal for:</p>
+<ul>
+<li>🛩️ <strong>Drone Flight Controllers</strong>: High-frequency gyro updates and PID tuning.</li>
+<li>🤖 <strong>Robotics</strong>: Real-time processing for sensor data and motor control.</li>
+<li>🌐 <strong>IoT Devices</strong>: ESP32’s WiFi support integrates IoT functionalities.</li>
+</ul>
+<hr>
+<h2 id="-notes-on-the-alpha-release">⚠️ Notes on the Alpha Release<a href="#-notes-on-the-alpha-release" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>This alpha release is under active development 🛠️ and may contain experimental features. Contributions 📝 and feedback 💡 are welcome through the <a href="https://github.com/rtlopez/esp-fc">GitHub repository</a>.</p>
+<hr>
+<p>For additional details 📚 or to get started 🚀, visit the <a href="https://github.com/rtlopez/esp-fc">ESP-FC documentation</a>.</p>
+<hr>
+<p>📂 My GitHub Profile: <a href="https://github.com/btechioi">BTechIOI</a></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="https://btechioi.github.io/posts/first-post/" class="button inline prev">
+        Hello World! Welcome to My Blog
+      </a>
+    
+    
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2024 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

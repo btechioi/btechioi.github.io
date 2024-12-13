@@ -3,10 +3,6 @@ title: About
 date: 2024-12-11
 ---
 ---
-title: About
-date: 2024-12-11
----
-
 # About  
 ----  
 
