@@ -52,5 +52,114 @@ Banumath.&lt;/p&gt;
 </content>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://btechioi.github.io/posts/project-update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://btechioi.github.io/posts/project-update/</guid>
+      <description>&lt;h1 id=&#34;-esp-fc-multicore--rtos-integration-alpha-release-&#34;&gt;🌟 ESP-FC: Multicore &amp;amp; RTOS Integration (Alpha Release) 🌟&lt;/h1&gt;
+&lt;p&gt;🚀 &lt;strong&gt;ESP-FC&lt;/strong&gt; is cutting-edge firmware designed for seamless multicore 🌐 and RTOS ⚙️ integration on microcontrollers like ESP32 and RP2040. This is an &lt;strong&gt;alpha release&lt;/strong&gt; based on the &lt;a href=&#34;https://github.com/rtlopez/esp-fc&#34;&gt;GitHub Repository&lt;/a&gt;. Below is an overview of its 🧩 capabilities, 🏛️ architecture, and 🌟 practical applications.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-overview&#34;&gt;🔍 Overview&lt;/h2&gt;
+&lt;p&gt;This firmware leverages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🧠 &lt;strong&gt;Multicore Support&lt;/strong&gt;: Optimized for dual-core processors (e.g., RP2040, ESP32).&lt;/li&gt;
+&lt;li&gt;⏱️ &lt;strong&gt;Real-Time Operating Systems&lt;/strong&gt;: Integrates FreeRTOS for task management on ESP32.&lt;/li&gt;
+&lt;li&gt;🕒 &lt;strong&gt;Hardware Timers&lt;/strong&gt;: Ensures precision for tasks like gyro updates.&lt;/li&gt;
+&lt;li&gt;📈 &lt;strong&gt;Sensor Fusion Algorithms&lt;/strong&gt;: Includes &lt;code&gt;Madgwick&lt;/code&gt;, &lt;code&gt;Mahony&lt;/code&gt;, and &lt;code&gt;Kalman&lt;/code&gt; filters for accurate motion tracking.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-key-features&#34;&gt;✨ Key Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Conditional platform-specific compilation.&lt;/li&gt;
+&lt;li&gt;🛠️ Separate task management for critical routines.&lt;/li&gt;
+&lt;li&gt;🧑‍💻 Fallback for single-core microcontrollers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-code-insights&#34;&gt;🖥️ Code Insights&lt;/h2&gt;
+&lt;h3 id=&#34;-platform-specific-implementations&#34;&gt;⚙️ Platform-Specific Implementations&lt;/h3&gt;
+&lt;h4 id=&#34;-rp2040-multicore-configuration&#34;&gt;🌀 &lt;strong&gt;RP2040 Multicore Configuration&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Efficient task splitting across cores:&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;-esp-fc-multicore--rtos-integration-alpha-release-&#34;&gt;🌟 ESP-FC: Multicore &amp;amp; RTOS Integration (Alpha Release) 🌟&lt;/h1&gt;
+&lt;p&gt;🚀 &lt;strong&gt;ESP-FC&lt;/strong&gt; is cutting-edge firmware designed for seamless multicore 🌐 and RTOS ⚙️ integration on microcontrollers like ESP32 and RP2040. This is an &lt;strong&gt;alpha release&lt;/strong&gt; based on the &lt;a href=&#34;https://github.com/rtlopez/esp-fc&#34;&gt;GitHub Repository&lt;/a&gt;. Below is an overview of its 🧩 capabilities, 🏛️ architecture, and 🌟 practical applications.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-overview&#34;&gt;🔍 Overview&lt;/h2&gt;
+&lt;p&gt;This firmware leverages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🧠 &lt;strong&gt;Multicore Support&lt;/strong&gt;: Optimized for dual-core processors (e.g., RP2040, ESP32).&lt;/li&gt;
+&lt;li&gt;⏱️ &lt;strong&gt;Real-Time Operating Systems&lt;/strong&gt;: Integrates FreeRTOS for task management on ESP32.&lt;/li&gt;
+&lt;li&gt;🕒 &lt;strong&gt;Hardware Timers&lt;/strong&gt;: Ensures precision for tasks like gyro updates.&lt;/li&gt;
+&lt;li&gt;📈 &lt;strong&gt;Sensor Fusion Algorithms&lt;/strong&gt;: Includes &lt;code&gt;Madgwick&lt;/code&gt;, &lt;code&gt;Mahony&lt;/code&gt;, and &lt;code&gt;Kalman&lt;/code&gt; filters for accurate motion tracking.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-key-features&#34;&gt;✨ Key Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Conditional platform-specific compilation.&lt;/li&gt;
+&lt;li&gt;🛠️ Separate task management for critical routines.&lt;/li&gt;
+&lt;li&gt;🧑‍💻 Fallback for single-core microcontrollers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-code-insights&#34;&gt;🖥️ Code Insights&lt;/h2&gt;
+&lt;h3 id=&#34;-platform-specific-implementations&#34;&gt;⚙️ Platform-Specific Implementations&lt;/h3&gt;
+&lt;h4 id=&#34;-rp2040-multicore-configuration&#34;&gt;🌀 &lt;strong&gt;RP2040 Multicore Configuration&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Efficient task splitting across cores:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;repeating_timer_t timer;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;bool&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;timer_callback&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;repeating_timer&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;t) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    espfc.update(true); &lt;span style=&#34;color:#75715e&#34;&gt;// Perform the gyro update
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; true;        &lt;span style=&#34;color:#75715e&#34;&gt;// Keep the timer running
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;setup&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    espfc.load();        &lt;span style=&#34;color:#75715e&#34;&gt;// Load configurations
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    espfc.begin();       &lt;span style=&#34;color:#75715e&#34;&gt;// Initialize the system
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    add_repeating_timer_us(&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;espfc.getGyroInterval(), timer_callback, NULL, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;timer);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    multicore_launch_core1(core1_task); &lt;span style=&#34;color:#75715e&#34;&gt;// Launch secondary core tasks
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;-esp32-freertos-integration&#34;&gt;⚡ &lt;strong&gt;ESP32 FreeRTOS Integration&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Dedicated tasks for real-time operations:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;gyroTask&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;pvParameters) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    espfc.begin();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    gyroTimerInit(gyroTimerIsr, espfc.getGyroInterval());
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; (true) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        ulTaskNotifyTake(pdTRUE, portMAX_DELAY); &lt;span style=&#34;color:#75715e&#34;&gt;// Wait for timer notification
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        espfc.update(true);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;setup&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    disableCore0WDT(); &lt;span style=&#34;color:#75715e&#34;&gt;// Disable Core 0 watchdog
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    espfc.load();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    xTaskCreateUniversal(gyroTask, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gyroTask&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;8192&lt;/span&gt;, NULL, &lt;span style=&#34;color:#ae81ff&#34;&gt;24&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;gyroTaskHandle, &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;-single-core-fallback&#34;&gt;🧩 &lt;strong&gt;Single-Core Fallback&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;For simpler setups:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;setup&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    espfc.load();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    espfc.begin();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;loop&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    espfc.update();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    espfc.updateOther();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-practical-applications&#34;&gt;🌟 Practical Applications&lt;/h2&gt;
+&lt;p&gt;ESP-FC’s architecture makes it ideal for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🛩️ &lt;strong&gt;Drone Flight Controllers&lt;/strong&gt;: High-frequency gyro updates and PID tuning.&lt;/li&gt;
+&lt;li&gt;🤖 &lt;strong&gt;Robotics&lt;/strong&gt;: Real-time processing for sensor data and motor control.&lt;/li&gt;
+&lt;li&gt;🌐 &lt;strong&gt;IoT Devices&lt;/strong&gt;: ESP32’s WiFi support integrates IoT functionalities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-notes-on-the-alpha-release&#34;&gt;⚠️ Notes on the Alpha Release&lt;/h2&gt;
+&lt;p&gt;This alpha release is under active development 🛠️ and may contain experimental features. Contributions 📝 and feedback 💡 are welcome through the &lt;a href=&#34;https://github.com/rtlopez/esp-fc&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;For additional details 📚 or to get started 🚀, visit the &lt;a href=&#34;https://github.com/rtlopez/esp-fc&#34;&gt;ESP-FC documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;📂 My GitHub Profile: &lt;a href=&#34;https://github.com/btechioi&#34;&gt;BTechIOI&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>
